@@ -1,6 +1,7 @@
 # [ClickJo](https://i.imgur.com/6hpAFy9.png/)
 
-[My Ads](https://i.imgur.com/0FJDBql.png/)
+[My Ads]
+[<img src="https://i.imgur.com/0FJDBql.png/" width="100" height="100" />]
 [Settings](https://i.imgur.com/XU09XRb.png/)
 ## Table of Contents
 
