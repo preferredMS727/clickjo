@@ -1,5 +1,7 @@
-# [Material Dashboard PRO Angular](https://demos.creative-tim.com/material-dashboard-pro-angular2/)
+# [ClickJo](https://i.imgur.com/6hpAFy9.png/)
 
+[My Ads](https://i.imgur.com/0FJDBql.png/)
+[Settings](https://i.imgur.com/XU09XRb.png/)
 ## Table of Contents
 
 * [Versions](#versions)
@@ -14,9 +16,6 @@
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-pro-angular2)
 
 
-| Dashboard | React | Angular |
-| --- | --- | --- |
-| [![Material Dashboard Pro HTML](https://i.imgur.com/6hpAFy9.png)](https://www.creative-tim.com/product/material-dashboard-pro) | [![Material Dashboard Pro React](https://s3.amazonaws.com/creativetim_bucket/products/80/thumb/opt_mdp_react_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro-react)  | [![Material Dashboard Pro Angular](https://s3.amazonaws.com/creativetim_bucket/products/55/thumb/opt_mdp_angular_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro-angular2)
 
 ## Terminal Commands
 
