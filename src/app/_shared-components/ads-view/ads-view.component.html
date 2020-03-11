@@ -1,0 +1,79 @@
+<div class="ads-modal">
+    <div class="cpnt-header modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="close()">
+            <mat-icon style="color: white;">close</mat-icon>
+        </button>
+    </div>
+    <div class="modal-body mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="row mt-2">
+                    <div class="offset-md-1 col-md-3">
+                        <p class="ads-subtitle">Category</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="ads-content">{{data.adsData.category}}</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="offset-md-1 col-md-3">
+                        <p class="ads-subtitle">Ads Date</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="ads-content">{{data.adsData.publishedDate}}</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="offset-md-1 col-md-3">
+                        <p class="ads-subtitle">Ad Type</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="ads-content">{{data.adsData.adType}}</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="offset-md-1 col-md-3">
+                        <p class="ads-subtitle">Box Type</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="ads-content">{{data.adsData.boxType}}</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="offset-md-1 col-md-3">
+                        <p class="ads-subtitle">Tags</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="ads-content">{{data.adsData.tags}}</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="offset-md-1 col-md-3">
+                        <p class="ads-subtitle">Mobile</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="ads-content">{{data.adsData.phone}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="row mt-2">
+                    <div class="col-3">
+                        <p class="ads-subtitle">Logo</p>
+                    </div>
+                    <div class="col-6">
+                        <img style="width: 116px; height: 116px;" [src]="data.adsData.logo">
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <p class="ads-subtitle">Logo</p>
+                    </div>
+                    <div class="col-6">
+                        <img style="width: 124px; height: 124px;" [src]="data.adsData.banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

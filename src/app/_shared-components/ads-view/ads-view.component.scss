@@ -1,0 +1,18 @@
+.cpnt-header {
+    background: black;
+}
+.ads-subtitle {
+    font-size: 14px;
+    color: #999999;
+}
+
+.ads-content {
+    font-size: 14px;
+    color: black;
+}
+
+::ng-deep {
+    .mat-dialog-container {
+        padding: 0px ;
+    }
+}

@@ -1,0 +1,26 @@
+.mat-column-progress {
+    // max-width: 40px;
+    padding: 0 30px;
+}
+.mat-column-option {
+    max-width: 65px;
+    // padding: 0 30px;
+}
+::ng-deep .mat-progress-bar-fill::after {
+    background-color: #FF6161;
+}
+
+::ng-deep .mat-progress-bar-buffer {
+    background: #E4E8EB;
+}
+
+::ng-deep .mat-progress-bar {
+    border-radius: 2px;
+}
+::ng-deep {
+    mat-checkbox {
+        .mat-checkbox-layout {
+            margin-bottom: 0px;
+        }        
+    }
+}

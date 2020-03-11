@@ -1,0 +1,109 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 m-0 p-0">
+                <div class="vertical-tab">
+                    <div style="padding: 20px 0px 10px 20px; background: white;">
+                        <p class="page-title">General Info</p>
+                    </div>
+                    <mat-tab-group>
+                        <mat-tab label="Account">
+                            <div class="p-3">
+                                <div class="row m-0">
+                                    <div class="col-md-12 text-center">
+                                        <div class="fileinput fileinput-new text-center" data-provides="fileinput">
+                                            <div class="fileinput-new thumbnail" style="height: 120px; width: 120px;">
+                                                <img src="./assets/img/design/user-upload.png" alt="...">
+                                            </div>
+                                            <div class="fileinput-preview fileinput-exists thumbnail"
+                                                style="height: 120px; width: 120px;"></div>
+                                            <div>
+                                                <span class="btn btn-rose btn-round btn-file">
+                                                    <span class="fileinput-new">Upload Image</span>
+                                                    <span class="fileinput-exists">Change</span>
+                                                    <input type="file" name="..." />
+                                                </span>
+                                                <a href="#pablo" class="btn btn-danger btn-round fileinput-exists"
+                                                    data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form [formGroup]="accountForm">
+                                    <div class="row m-0">
+                                        <div class="col-md-6">
+                                            <mat-form-field>
+                                                <mat-label>Name</mat-label>
+                                                <input matInput type="text" formControlName="name" />
+                                                <mat-error *ngIf="isControlHasError('name','required')">
+                                                    <strong>name is required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <mat-form-field>
+                                                <mat-label>Gender</mat-label>
+                                                <mat-select formControlName="gender">
+                                                    <mat-option value="option">Male</mat-option>
+                                                    <mat-option value="option">Female</mat-option>
+                                                </mat-select>
+                                                <mat-error *ngIf="isControlHasError('gender','required')">
+                                                    <strong>gender is required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <mat-form-field>
+                                                <mat-label>About</mat-label>
+                                                <textarea matInput formControlName="about"></textarea>
+                                                <mat-error *ngIf="isControlHasError('about','required')">
+                                                    <strong>About is required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <mat-form-field>
+                                                <mat-label>Phone Number</mat-label>
+                                                <input matInput type="number" formControlName="phone" />
+                                                <mat-error *ngIf="isControlHasError('phone','required')">
+                                                    <strong>Phone Number is required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-md-6"></div>
+                                        <div class="col-md-6">
+                                            <mat-form-field>
+                                                <mat-label>Email</mat-label>
+                                                <input matInput type="text" formControlName="email" />
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <mat-form-field>
+                                                <mat-label>Username</mat-label>
+                                                <input matInput type="text" formControlName="username" />
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-md-12 text-right">
+                                            <button mat-raised-button class="btn blue-btn" style="width: 124px;">
+                                                <span>Save</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </mat-tab>
+                        <mat-tab label="Password">
+                            Password
+                        </mat-tab>
+                        <mat-tab label="Social Media Links">
+                            Social Media Links
+                        </mat-tab>
+                        <mat-tab label="General Settings">
+                            General Settings
+                        </mat-tab>
+                    </mat-tab-group>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+.mat-column-option {
+    max-width: 25px;
+    // padding: 0 30px;
+}
+
+::ng-deep {
+    mat-checkbox {
+        .mat-checkbox-layout {
+            margin-bottom: 0px;
+        }        
+    }
+}

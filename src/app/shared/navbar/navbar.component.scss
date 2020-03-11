@@ -1,0 +1,28 @@
+form {
+    background: #F5F6F9;
+    width: 520px;
+    margin-right: 142px;
+    height: 48px;
+    border-radius: 7px;
+    position: relative;
+    i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 15px;
+    }
+    .search-input {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: #F5F6F9;
+        left: 50px;
+        font-size: 12px;
+    }
+}
+
+::ng-deep .mat-input-underline {
+    display: none;
+}
+

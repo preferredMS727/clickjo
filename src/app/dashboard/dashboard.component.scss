@@ -1,0 +1,143 @@
+::ng-deep {
+    .select-month {
+        .mat-form-field-underline {
+            display: none;
+        }
+
+        .mat-form-field-infix {
+            background: white;
+            border-top-width: 10px;
+            height: 40px;
+            border-top-width: 0px;
+            padding-top: 10px !important;
+            border-radius: 7px;
+        }        
+    }
+
+}
+
+.button-group {
+    .select-month {
+        mat-label {
+            margin-left: 10px;
+
+            i {
+                font-size: 18px;
+                margin-top: 3px;
+            }
+
+            span {
+                font-size: 12px;
+                font-weight: bold;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 40px;
+            }
+        }
+
+        mat-select {
+            padding: 0px 20px;
+        }
+    }
+
+    .add-new-btn {
+        color: white;
+        width: 154px;
+        position: absolute;
+        right: 15px;
+    }
+
+}
+
+.custom-chart-card {
+    height: 330px;
+    .rating {
+        margin: auto;
+
+        p {
+            font-size: 32px;
+        }
+
+        label {
+            font-size: 14px;
+        }
+    }
+}
+
+// .legend {}
+
+// .card {
+//     padding: 30px;
+// }
+.detail-card-item {
+    margin: -8px 20px 12px;
+
+    .icon-item {
+        background: #6236FF;
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+
+        i {
+            color: white;
+            font-size: 24px;
+            margin: 4px;
+        }
+    }
+
+    p {
+        font-size: 34px;
+        // margin-inline-end: auto;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}
+
+.logo-card {
+    padding: 20px 40px;
+
+    img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .logo-card-text {
+        margin-left: 30px;
+
+        h4 {
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 0px;
+        }
+    }
+}
+
+ul.legend {
+    li {
+        padding: 2px 0px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.second-chart {
+    height: 16px;
+
+    li {
+        display: inline;
+        margin: 0px;
+        padding-right: 60px;
+        line-height: 16px;
+        font-size: 14px;
+    }
+}
