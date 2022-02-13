@@ -34,7 +34,7 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "@ngx-translate/core": "^11.0.1",
     "@ngx-translate/http-loader": "^4.0.0",
-    "ajv": "6.3.0",
+    "ajv": "6.12.3",
     "angular-calendar": "0.23.1",
     "angular-datatables": "^7.0.0",
     "angular-file": "^3.0.0",
